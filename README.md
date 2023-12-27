@@ -1,27 +1,62 @@
-# Capstone project information
+# Unify
 
-## Project information
+## Project Description
 
-- Project name: `“Let’s share.”`
-- Project description: `“Let’s share.” is a website that encourages people who live in the same region to share their daily extra food, clothes, furniture, etc`
-- Technology used: Nextjs, TailwindCSS, i18next, Husky, Prettier, Eslint, Commitlinter (Conventional Commits)
-- Team members: [Riadh Mouamnia](https://github.com/riadhmouamnia), [Farouk Zemmouri](https://github.com/farouk26), [Hadia Djadallah](https://github.com/liliumorion), [Rahem Sorour](https://github.com/rahemSorour), [Bouchra Djalti](https://github.com/Bushra369),
-- Bootcamp: FEW NEA-DZ 2023
+Unify is a groundbreaking online platform dedicated to building a connected community by encouraging the sharing and reuse of various items among its members. The goal is to create an intuitive and user-friendly website facilitating the exchange of clothes, food, electronics, and more, promoting sustainability and community engagement.
 
-## Installation
+## Key Features
 
-```shell
-npm install -g commitizen // Installs commitizen
-npx husky install         // Installs Husky
-chmod ug+x .husky/*       // Gives husky executable extension
-npm install               // Installs the node modules
-```
+- **Homepage**
+- **Sign in page**
+- **Sign up page**
+- **List of products page**
+- **Profile page**
+- **About us page**
+- **Blog page**
+- **Single blog page**
+- **Filter Products:** Easily filter products by search, category, and listing type.
+- **User Authentication:** Create accounts, log in, and log out.
+- **Product Details:** View detailed descriptions of itemss with user contact information.
+- **Responsive Design:** Ensure accessibility on various devices.
 
-## Development process
+## Technology Stack
 
-- When commiting you will have to use `git cz` and then go through the process. Look at the first commit I made to know what that means.
-- The translation process is done using the i18next library. There's an example in the index.js file of how this is done. Check this github project for more info on how to use the i18next library: [i18next](https://github.com/i18next/next-i18next)
-- When writing commits, commitlinter library is used to make sure that your commits are consistent with the conventional commits. To learn more about it refer to the guidelines in Canvas or the [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) site.
-- The `layout` folder contains the components that will be used in the layout of pages, so components like the header and footer will be placed there.
+- **Frontend:** Next.js, Tailwind CSS , Framer Motion , React Icons , DaisyUI , React Slick
+- **Database:** Firestore
+- **Authentication:** Firebase Authentication
+- **Form Validation:** Formik, Yup
 
-Good luck and happy coding :D
+## Project Goals
+
+Share and reuse itemss like clothes and furniture ... etc amongst the community, fostering a sustainable and connected environment.
+
+## Getting Started
+
+To run this project locally, follow these steps:
+
+1. Clone the repository into your local machine by running the command:
+   ```
+   git clone https://github.com/farouk26/Unify
+   ```
+
+2. Install dependencies:
+   ```
+   npm install
+   ```
+
+3. Start the development server:
+   ```
+   npm run dev
+   ```
+
+4. Open your browser and visit [http://localhost:3000/](http://localhost:3000/)
+
+## Demo
+
+Explore the live demo of Unify: [unify-team-a.vercel.app](https://unify-team-a.vercel.app/)
+
+*Note: The project is also developed with Firebase, Firestore, and their integrated API, along with Firebase Authentication.*
+
+## Bootcamp
+
+Re:Coded - 202306-NEA-DZ-FEW
