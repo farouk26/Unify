@@ -28,7 +28,7 @@ Unify is a groundbreaking online platform dedicated to building a connected comm
 
 ## Project Goals
 
-Share and reuse itemss like clothes and furniture ... etc amongst the community, fostering a sustainable and connected environment.
+Share and reuse itemss like clothes and furniture .... etc amongst the community, fostering a sustainable and connected environment.
 
 ## Getting Started
 
